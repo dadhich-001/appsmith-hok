@@ -437,7 +437,7 @@
                                   "labelColor": "#FFFFFF"
                                 }
                               },
-                              "onRowSelected": "{{showModal('Modal3')}}",
+                              "onRowSelected": "{{showModal('Modal4')}}",
                               "key": "9z4fkcgyp1",
                               "isDeprecated": false,
                               "rightColumn": 64,
@@ -4274,8 +4274,8 @@
                               "bottomRow": 46,
                               "columnWidthMap": {
                                 "task": 245,
-                                "step": 62,
-                                "status": 75
+                                "step": 129,
+                                "status": 127
                               },
                               "parentRowSpace": 10,
                               "hideCard": false,
@@ -6001,6 +6001,544 @@
               "isLoading": false,
               "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
               "width": 775.1999999999999
+            },
+            {
+              "boxShadow": "none",
+              "widgetName": "Modal4",
+              "isCanvas": true,
+              "displayName": "Modal",
+              "iconSVG": "/static/media/icon.4975978e9a961fb0bfb4e38de7ecc7c5.svg",
+              "searchTags": [
+                "dialog",
+                "popup",
+                "notification"
+              ],
+              "topRow": 0,
+              "bottomRow": 0,
+              "parentRowSpace": 1,
+              "type": "MODAL_WIDGET",
+              "hideCard": false,
+              "shouldScrollContents": true,
+              "animateLoading": true,
+              "parentColumnSpace": 1,
+              "leftColumn": 0,
+              "dynamicBindingPathList": [
+                {
+                  "key": "borderRadius"
+                }
+              ],
+              "children": [
+                {
+                  "boxShadow": "none",
+                  "widgetName": "Canvas18",
+                  "displayName": "Canvas",
+                  "topRow": 0,
+                  "bottomRow": 640,
+                  "parentRowSpace": 1,
+                  "type": "CANVAS_WIDGET",
+                  "canExtend": true,
+                  "hideCard": true,
+                  "shouldScrollContents": false,
+                  "minHeight": 636,
+                  "parentColumnSpace": 1,
+                  "leftColumn": 0,
+                  "dynamicBindingPathList": [
+                    {
+                      "key": "borderRadius"
+                    },
+                    {
+                      "key": "accentColor"
+                    }
+                  ],
+                  "children": [
+                    {
+                      "boxShadow": "{{appsmith.theme.boxShadow.appBoxShadow}}",
+                      "widgetName": "Tabs3Copy",
+                      "isCanvas": true,
+                      "displayName": "Tabs",
+                      "iconSVG": "/static/media/icon.74a6d653c8201e66f1cd367a3fba2657.svg",
+                      "topRow": 6,
+                      "bottomRow": 62,
+                      "parentRowSpace": 10,
+                      "type": "TABS_WIDGET",
+                      "hideCard": false,
+                      "shouldScrollContents": false,
+                      "animateLoading": true,
+                      "parentColumnSpace": 11.924999999999999,
+                      "dynamicTriggerPathList": [],
+                      "leftColumn": 0,
+                      "dynamicBindingPathList": [
+                        {
+                          "key": "accentColor"
+                        },
+                        {
+                          "key": "borderRadius"
+                        },
+                        {
+                          "key": "boxShadow"
+                        }
+                      ],
+                      "children": [
+                        {
+                          "tabId": "tab1",
+                          "boxShadow": "none",
+                          "widgetName": "Canvas17Copy",
+                          "displayName": "Canvas",
+                          "topRow": 0,
+                          "bottomRow": 510,
+                          "parentRowSpace": 1,
+                          "type": "CANVAS_WIDGET",
+                          "canExtend": true,
+                          "hideCard": true,
+                          "shouldScrollContents": false,
+                          "minHeight": 400,
+                          "parentColumnSpace": 1,
+                          "dynamicTriggerPathList": [],
+                          "leftColumn": 0,
+                          "dynamicBindingPathList": [
+                            {
+                              "key": "borderRadius"
+                            },
+                            {
+                              "key": "accentColor"
+                            }
+                          ],
+                          "children": [
+                            {
+                              "boxShadow": "{{appsmith.theme.boxShadow.appBoxShadow}}",
+                              "isVisibleDownload": true,
+                              "iconSVG": "/static/media/icon.db8a9cbd2acd22a31ea91cc37ea2a46c.svg",
+                              "topRow": 0,
+                              "isSortable": true,
+                              "type": "TABLE_WIDGET_V2",
+                              "inlineEditingSaveOption": "ROW_LEVEL",
+                              "animateLoading": true,
+                              "dynamicBindingPathList": [
+                                {
+                                  "key": "primaryColumns.step.computedValue"
+                                },
+                                {
+                                  "key": "primaryColumns.task.computedValue"
+                                },
+                                {
+                                  "key": "primaryColumns.status.computedValue"
+                                },
+                                {
+                                  "key": "primaryColumns.action.computedValue"
+                                },
+                                {
+                                  "key": "primaryColumns.action.buttonColor"
+                                },
+                                {
+                                  "key": "primaryColumns.action.borderRadius"
+                                },
+                                {
+                                  "key": "primaryColumns.action.boxShadow"
+                                },
+                                {
+                                  "key": "accentColor"
+                                },
+                                {
+                                  "key": "borderRadius"
+                                },
+                                {
+                                  "key": "boxShadow"
+                                },
+                                {
+                                  "key": "childStylesheet.button.buttonColor"
+                                },
+                                {
+                                  "key": "childStylesheet.button.borderRadius"
+                                },
+                                {
+                                  "key": "childStylesheet.menuButton.menuColor"
+                                },
+                                {
+                                  "key": "childStylesheet.menuButton.borderRadius"
+                                },
+                                {
+                                  "key": "childStylesheet.iconButton.buttonColor"
+                                },
+                                {
+                                  "key": "childStylesheet.iconButton.borderRadius"
+                                },
+                                {
+                                  "key": "childStylesheet.editActions.saveButtonColor"
+                                },
+                                {
+                                  "key": "childStylesheet.editActions.saveBorderRadius"
+                                },
+                                {
+                                  "key": "childStylesheet.editActions.discardButtonColor"
+                                },
+                                {
+                                  "key": "childStylesheet.editActions.discardBorderRadius"
+                                }
+                              ],
+                              "leftColumn": 0,
+                              "delimiter": ",",
+                              "defaultSelectedRowIndex": 0,
+                              "accentColor": "{{appsmith.theme.colors.primaryColor}}",
+                              "isVisibleFilters": true,
+                              "isVisible": true,
+                              "enableClientSideSearch": true,
+                              "version": 1,
+                              "totalRecordsCount": 0,
+                              "isLoading": false,
+                              "childStylesheet": {
+                                "button": {
+                                  "buttonColor": "{{appsmith.theme.colors.primaryColor}}",
+                                  "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
+                                  "boxShadow": "none"
+                                },
+                                "menuButton": {
+                                  "menuColor": "{{appsmith.theme.colors.primaryColor}}",
+                                  "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
+                                  "boxShadow": "none"
+                                },
+                                "iconButton": {
+                                  "buttonColor": "{{appsmith.theme.colors.primaryColor}}",
+                                  "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
+                                  "boxShadow": "none"
+                                },
+                                "editActions": {
+                                  "saveButtonColor": "{{appsmith.theme.colors.primaryColor}}",
+                                  "saveBorderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
+                                  "discardButtonColor": "{{appsmith.theme.colors.primaryColor}}",
+                                  "discardBorderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}"
+                                }
+                              },
+                              "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
+                              "defaultSelectedRowIndices": [
+                                0
+                              ],
+                              "widgetName": "Table5Copy",
+                              "defaultPageSize": 0,
+                              "columnOrder": [
+                                "step",
+                                "task",
+                                "status",
+                                "action",
+                                "customColumn1",
+                                "customColumn2",
+                                "customColumn3"
+                              ],
+                              "dynamicPropertyPathList": [],
+                              "displayName": "Table",
+                              "bottomRow": 49,
+                              "columnWidthMap": {
+                                "task": 245,
+                                "step": 125,
+                                "status": 133
+                              },
+                              "parentRowSpace": 10,
+                              "hideCard": false,
+                              "parentColumnSpace": 11.612499999999999,
+                              "dynamicTriggerPathList": [],
+                              "primaryColumns": {
+                                "step": {
+                                  "index": 0,
+                                  "width": 150,
+                                  "id": "step",
+                                  "originalId": "step",
+                                  "alias": "step",
+                                  "horizontalAlignment": "CENTER",
+                                  "verticalAlignment": "CENTER",
+                                  "columnType": "text",
+                                  "textSize": "0.875rem",
+                                  "enableFilter": true,
+                                  "enableSort": true,
+                                  "isVisible": true,
+                                  "isCellVisible": true,
+                                  "isCellEditable": false,
+                                  "isDerived": false,
+                                  "label": "Shipment id",
+                                  "computedValue": "{{Table5Copy.processedTableData.map((currentRow, currentIndex) => ( currentRow[\"step\"]))}}",
+                                  "labelColor": "#FFFFFF"
+                                },
+                                "task": {
+                                  "index": 1,
+                                  "width": 150,
+                                  "id": "task",
+                                  "originalId": "task",
+                                  "alias": "task",
+                                  "horizontalAlignment": "CENTER",
+                                  "verticalAlignment": "CENTER",
+                                  "columnType": "date",
+                                  "textSize": "0.875rem",
+                                  "enableFilter": true,
+                                  "enableSort": true,
+                                  "isVisible": true,
+                                  "isCellVisible": true,
+                                  "isCellEditable": false,
+                                  "isDerived": false,
+                                  "label": "Promise date",
+                                  "computedValue": "{{Table5Copy.processedTableData.map((currentRow, currentIndex) => ( currentRow[\"task\"]))}}",
+                                  "labelColor": "#FFFFFF"
+                                },
+                                "status": {
+                                  "index": 2,
+                                  "width": 150,
+                                  "id": "status",
+                                  "originalId": "status",
+                                  "alias": "status",
+                                  "horizontalAlignment": "CENTER",
+                                  "verticalAlignment": "CENTER",
+                                  "columnType": "date",
+                                  "textSize": "0.875rem",
+                                  "enableFilter": true,
+                                  "enableSort": true,
+                                  "isVisible": true,
+                                  "isCellVisible": true,
+                                  "isCellEditable": false,
+                                  "isDerived": false,
+                                  "label": "Fulfilment date",
+                                  "computedValue": "{{Table5Copy.processedTableData.map((currentRow, currentIndex) => ( currentRow[\"status\"]))}}",
+                                  "labelColor": "#FFFFFF"
+                                },
+                                "action": {
+                                  "index": 3,
+                                  "width": 150,
+                                  "id": "action",
+                                  "originalId": "action",
+                                  "alias": "action",
+                                  "horizontalAlignment": "CENTER",
+                                  "verticalAlignment": "CENTER",
+                                  "columnType": "button",
+                                  "textSize": "0.875rem",
+                                  "enableFilter": true,
+                                  "enableSort": true,
+                                  "isVisible": true,
+                                  "isCellVisible": true,
+                                  "isCellEditable": false,
+                                  "isDisabled": false,
+                                  "isDerived": false,
+                                  "label": "Type",
+                                  "onClick": "{{currentRow.step === '#1' ? showAlert('Done', 'success') : currentRow.step === '#2' ? navigateTo('https://docs.appsmith.com/core-concepts/connecting-to-data-sources/querying-a-database',undefined,'NEW_WINDOW') : navigateTo('https://docs.appsmith.com/core-concepts/displaying-data-read/display-data-tables',undefined,'NEW_WINDOW')}}",
+                                  "computedValue": "{{Table5Copy.processedTableData.map((currentRow, currentIndex) => ( currentRow[\"action\"]))}}",
+                                  "labelColor": "#FFFFFF",
+                                  "buttonColor": "{{Table5Copy.processedTableData.map((currentRow, currentIndex) => ( appsmith.theme.colors.primaryColor))}}",
+                                  "borderRadius": "{{Table5Copy.processedTableData.map((currentRow, currentIndex) => ( appsmith.theme.borderRadius.appBorderRadius))}}",
+                                  "boxShadow": "{{Table5Copy.processedTableData.map((currentRow, currentIndex) => ( 'none'))}}"
+                                },
+                                "customColumn1": {
+                                  "allowCellWrapping": false,
+                                  "index": 4,
+                                  "width": 150,
+                                  "originalId": "customColumn1",
+                                  "id": "customColumn1",
+                                  "alias": "customColumn1",
+                                  "horizontalAlignment": "CENTER",
+                                  "columnType": "text",
+                                  "enableFilter": true,
+                                  "enableSort": true,
+                                  "isVisible": true,
+                                  "isDisabled": false,
+                                  "isCellEditable": false,
+                                  "isEditable": false,
+                                  "isCellVisible": true,
+                                  "isDerived": true,
+                                  "label": "State",
+                                  "isSaveVisible": true,
+                                  "isDiscardVisible": true,
+                                  "computedValue": "",
+                                  "buttonStyle": "rgb(3, 179, 101)",
+                                  "labelColor": "#FFFFFF"
+                                },
+                                "customColumn2": {
+                                  "allowCellWrapping": false,
+                                  "index": 5,
+                                  "width": 150,
+                                  "originalId": "customColumn2",
+                                  "id": "customColumn2",
+                                  "alias": "customColumn2",
+                                  "horizontalAlignment": "CENTER",
+                                  "columnType": "text",
+                                  "enableFilter": true,
+                                  "enableSort": true,
+                                  "isVisible": true,
+                                  "isDisabled": false,
+                                  "isCellEditable": false,
+                                  "isEditable": false,
+                                  "isCellVisible": true,
+                                  "isDerived": true,
+                                  "label": "Priority flag",
+                                  "isSaveVisible": true,
+                                  "isDiscardVisible": true,
+                                  "computedValue": "",
+                                  "buttonStyle": "rgb(3, 179, 101)",
+                                  "labelColor": "#FFFFFF"
+                                },
+                                "customColumn3": {
+                                  "allowCellWrapping": false,
+                                  "index": 6,
+                                  "width": 150,
+                                  "originalId": "customColumn3",
+                                  "id": "customColumn3",
+                                  "alias": "customColumn3",
+                                  "horizontalAlignment": "CENTER",
+                                  "columnType": "text",
+                                  "enableFilter": true,
+                                  "enableSort": true,
+                                  "isVisible": true,
+                                  "isDisabled": false,
+                                  "isCellEditable": false,
+                                  "isEditable": false,
+                                  "isCellVisible": true,
+                                  "isDerived": true,
+                                  "label": "Details",
+                                  "isSaveVisible": true,
+                                  "isDiscardVisible": true,
+                                  "computedValue": "",
+                                  "buttonStyle": "rgb(3, 179, 101)",
+                                  "labelColor": "#FFFFFF"
+                                }
+                              },
+                              "key": "wxr6e68934",
+                              "isDeprecated": false,
+                              "rightColumn": 64,
+                              "textSize": "0.875rem",
+                              "widgetId": "arxe7hnjug",
+                              "tableData": [
+                                {
+                                  "step": "#1",
+                                  "task": "Drop a table",
+                                  "status": "✅",
+                                  "action": ""
+                                },
+                                {
+                                  "step": "#2",
+                                  "task": "Create a query fetch_users with the Mock DB",
+                                  "status": "--",
+                                  "action": ""
+                                },
+                                {
+                                  "step": "#3",
+                                  "task": "Bind the query using => fetch_users.data",
+                                  "status": "--",
+                                  "action": ""
+                                }
+                              ],
+                              "label": "Data",
+                              "searchKey": "",
+                              "parentId": "5k596ueguk",
+                              "renderMode": "CANVAS",
+                              "horizontalAlignment": "CENTER",
+                              "isVisibleSearch": true,
+                              "isVisiblePagination": true,
+                              "verticalAlignment": "CENTER"
+                            }
+                          ],
+                          "isDisabled": false,
+                          "key": "ycdn2pjlal",
+                          "isDeprecated": false,
+                          "tabName": "Shipment info",
+                          "rightColumn": 286.2,
+                          "detachFromLayout": true,
+                          "widgetId": "5k596ueguk",
+                          "accentColor": "{{appsmith.theme.colors.primaryColor}}",
+                          "isVisible": true,
+                          "version": 1,
+                          "parentId": "5eqgtecfzw",
+                          "renderMode": "CANVAS",
+                          "isLoading": false,
+                          "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}"
+                        }
+                      ],
+                      "key": "ksdrr6nq8d",
+                      "isDeprecated": false,
+                      "rightColumn": 64,
+                      "widgetId": "5eqgtecfzw",
+                      "accentColor": "{{appsmith.theme.colors.primaryColor}}",
+                      "defaultTab": "Tab 1",
+                      "shouldShowTabs": true,
+                      "tabsObj": {
+                        "tab1": {
+                          "label": "Shipment info",
+                          "id": "tab1",
+                          "widgetId": "5k596ueguk",
+                          "isVisible": true,
+                          "index": 0
+                        }
+                      },
+                      "isVisible": true,
+                      "version": 3,
+                      "parentId": "7shppnraee",
+                      "renderMode": "CANVAS",
+                      "isLoading": false,
+                      "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}"
+                    },
+                    {
+                      "boxShadow": "0 10px 15px -3px rgba(0, 0, 0, 0.1), 0 4px 6px -2px rgba(0, 0, 0, 0.05)",
+                      "widgetName": "IconButton7",
+                      "onClick": "{{closeModal('Modal4')}}",
+                      "buttonColor": "{{appsmith.theme.colors.primaryColor}}",
+                      "displayName": "Icon Button",
+                      "iconSVG": "/static/media/icon.1a0c634ac75f9fa6b6ae7a8df882a3ba.svg",
+                      "searchTags": [
+                        "click",
+                        "submit"
+                      ],
+                      "topRow": 1,
+                      "bottomRow": 5,
+                      "type": "ICON_BUTTON_WIDGET",
+                      "hideCard": false,
+                      "animateLoading": true,
+                      "dynamicTriggerPathList": [],
+                      "leftColumn": 59,
+                      "dynamicBindingPathList": [
+                        {
+                          "key": "buttonColor"
+                        },
+                        {
+                          "key": "borderRadius"
+                        }
+                      ],
+                      "iconSize": 24,
+                      "isDisabled": false,
+                      "key": "bq7k3f4u81",
+                      "isDeprecated": false,
+                      "rightColumn": 64,
+                      "iconName": "cross",
+                      "widgetId": "cqtbezc8ar",
+                      "isVisible": true,
+                      "version": 1,
+                      "parentId": "7shppnraee",
+                      "renderMode": "CANVAS",
+                      "isLoading": false,
+                      "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
+                      "buttonVariant": "TERTIARY"
+                    }
+                  ],
+                  "isDisabled": false,
+                  "key": "c0d2q37yg7",
+                  "isDeprecated": false,
+                  "rightColumn": 0,
+                  "detachFromLayout": true,
+                  "widgetId": "7shppnraee",
+                  "accentColor": "{{appsmith.theme.colors.primaryColor}}",
+                  "isVisible": true,
+                  "version": 1,
+                  "parentId": "7ciuftjond",
+                  "renderMode": "CANVAS",
+                  "isLoading": false,
+                  "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}"
+                }
+              ],
+              "key": "s3cbpmlcd9",
+              "height": 636,
+              "isDeprecated": false,
+              "rightColumn": 0,
+              "detachFromLayout": true,
+              "widgetId": "7ciuftjond",
+              "canOutsideClickClose": true,
+              "canEscapeKeyClose": true,
+              "version": 2,
+              "parentId": "0",
+              "renderMode": "CANVAS",
+              "isLoading": false,
+              "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
+              "width": 796
             }
           ]
         },
